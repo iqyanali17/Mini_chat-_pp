@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#25D366;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#128C7E;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background circle with shadow effect -->
+  <circle cx="50" cy="50" r="48" fill="url(#grad)"/>
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#128C7E" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Main chat bubble -->
+  <path d="M 20 25 
+           Q 20 15 30 15 
+           L 60 15 
+           Q 70 15 70 25 
+           L 70 45 
+           Q 70 55 60 55 
+           L 40 55 
+           L 25 68 
+           L 25 45 
+           Q 25 35 20 35 
+           Z" 
+        fill="white" 
+        opacity="0.98"/>
+  
+  <!-- Chat bubble tail -->
+  <path d="M 25 45 
+           L 20 50 
+           L 25 55 
+           Z" 
+        fill="white" 
+        opacity="0.98"/>
+  
+  <!-- Message text lines -->
+  <rect x="32" y="28" width="28" height="4" rx="2" fill="#25D366" opacity="0.8"/>
+  <rect x="32" y="36" width="20" height="4" rx="2" fill="#25D366" opacity="0.6"/>
+  
+  <!-- Decorative dots (WhatsApp style) -->
+  <circle cx="30" cy="48" r="2" fill="#25D366" opacity="0.5"/>
+  <circle cx="36" cy="48" r="2" fill="#25D366" opacity="0.5"/>
+  <circle cx="42" cy="48" r="2" fill="#25D366" opacity="0.5"/>
+</svg>
+
